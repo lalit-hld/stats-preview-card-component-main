@@ -1,0 +1,80 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: hsl(233, 47%, 7%);
+}
+.box{
+    display: flex;
+    background-color: hsl(244, 38%, 16%);
+    font-family: "Inter", sans-serif;
+    max-width: 1112px;
+    border-radius: 16px;
+    overflow: hidden;
+}
+.box2{
+    display: flex;
+    justify-content: space-between;
+}
+h1{
+    font-size: 36px;
+    font-weight: 700;
+    color: hsl(0, 0%, 100%);
+}
+.text-accent {
+    color: hsl(277, 64%, 61%);
+}
+
+.img img {
+    height: 100%;
+    width: 100%;
+}
+
+.left {
+    display: flex;
+    flex-direction: column;
+    padding: 64px;
+    gap: 32px;
+    flex: 1;
+}
+
+/*🚨🚨🚨 inn dono ka code dekh lena kya kara hai 👇🏻 */
+.right {
+    flex: 1;
+    position: relative;
+}
+.right .purple-accent {
+    background-color: hsl(277, 100%, 21%, 0.65);
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+/*🚨🚨🚨 inn dono ka code dekh lena kya kara hai 👆🏻 */
+
+.left > p {
+    font-size: 15px;
+    color: hsla(0, 0%, 100%, 0.75);
+    line-height: 28px;
+}
+.stats {
+
+    color: hsl(0, 0%, 100%);
+}
+.stats p:nth-child(1) {
+    font-weight: 700;
+    font-size: 25px;
+}
+
+.stats p:nth-child(2) {
+    color: hsla(0, 0%, 100%, 0.6);
+    text-transform: uppercase;
+    font-family: "Lexend Deca", sans-serif;
+}
